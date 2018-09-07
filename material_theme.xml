@@ -1,8 +1,13 @@
 <application>
   <component name="MaterialThemeConfig">
     <option name="version" value="2.8.3" />
+    <option name="selectedTheme" value="ARC_DARK" />
+    <option name="highlightColor" value="80cbc4" />
     <option name="isContrastMode" value="true" />
     <option name="accentColor" value="009688" />
+    <option name="hideFileIcons" value="true" />
+    <option name="monochromeIcons" value="true" />
+    <option name="settingsSelectedTab" value="2" />
     <option name="userId" value="461a8743:165b0182d22:-8000" />
     <option name="allowDataCollection" value="true" />
     <option name="overrideAccentColor" value="true" />
