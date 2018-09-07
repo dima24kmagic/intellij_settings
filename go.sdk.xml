@@ -1,0 +1,9 @@
+<application>
+  <component name="GoSdkList">
+    <sdk-path>
+      <set>
+        <option value="$USER_HOME$/programming/go" />
+      </set>
+    </sdk-path>
+  </component>
+</application>
