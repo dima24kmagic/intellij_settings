@@ -3,8 +3,4 @@
     <option name="FONT_SIZE" value="16" />
     <option name="FONT_FAMILY" value="Ubuntu Mono" />
   </component>
-  <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
-  </component>
 </application>
