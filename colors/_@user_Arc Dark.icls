@@ -4,7 +4,7 @@
     <property name="created">2018-09-07T18:06:54</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.2.2.0.0</property>
-    <property name="modified">2018-09-10T12:28:23</property>
+    <property name="modified">2018-09-10T12:30:29</property>
     <property name="originalScheme">Arc Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -504,7 +504,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="ff4051" />
+        <option name="FOREGROUND" value="78d555" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
