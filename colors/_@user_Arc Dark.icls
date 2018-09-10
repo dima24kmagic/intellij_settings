@@ -1,27 +1,27 @@
 <scheme name="_@user_Arc Dark" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.25" />
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2018-09-07T18:06:54</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.2.2.0.0</property>
-    <property name="modified">2018-09-10T10:34:56</property>
+    <property name="modified">2018-09-10T12:30:29</property>
     <property name="originalScheme">Arc Dark</property>
   </metaInfo>
+  <option name="LINE_SPACING" value="1.0" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Droid Sans Mono" />
-    <option name="EDITOR_FONT_SIZE" value="20" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Ubuntu Mono" />
-    <option name="EDITOR_FONT_SIZE" value="20" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
   </font>
   <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
-  <option name="CONSOLE_FONT_SIZE" value="23" />
   <option name="CONSOLE_LINE_SPACING" value="1.4" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="8f9d6a" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
-    <option name="CARET_COLOR" value="60158" />
+    <option name="CARET_COLOR" value="fff8" />
     <option name="CARET_ROW_COLOR" value="3e424d" />
     <option name="CONSOLE_BACKGROUND_KEY" value="262b33" />
     <option name="DELETED_LINES_COLOR" value="cf6a4c" />
@@ -504,7 +504,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="79e7ff" />
+        <option name="FOREGROUND" value="78d555" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -802,6 +802,7 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="GHERKIN_REGEXP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="GO_FUNCTION_PARAMETER">
       <value>
         <option name="FOREGROUND" value="cda869" />
@@ -866,9 +867,8 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="89eaea" />
+        <option name="FOREGROUND" value="ea40ff" />
         <option name="BACKGROUND" value="0" />
-        <option name="EFFECT_COLOR" value="fffbf7" />
         <option name="ERROR_STRIPE_COLOR" value="4d6168" />
       </value>
     </option>
@@ -1916,8 +1916,8 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="2bcb6b" />
+        <option name="BACKGROUND" value="0" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -2528,6 +2528,7 @@
         <option name="FOREGROUND" value="8f9d6a" />
       </value>
     </option>
+    <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
     <option name="SASS_MIXIN">
       <value>
         <option name="FOREGROUND" value="7587a6" />
@@ -2686,6 +2687,8 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="XPATH.XPATH_NAME" baseAttributes="TEXT" />
+    <option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="YAML_SCALAR_KEY">
       <value>
         <option name="FOREGROUND" value="cf6a4c" />
@@ -2703,6 +2706,10 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="com.plan9.INSTRUCTION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
+    <option name="com.plan9.PSEUDO_INSTRUCTION" baseAttributes="com.plan9.INSTRUCTION" />
+    <option name="com.plan9.REGISTER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="org.rust.TYPE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="f9ee98" />
