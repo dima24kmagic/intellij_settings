@@ -4,7 +4,7 @@
     <property name="created">2018-09-07T18:06:54</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.2.2.0.0</property>
-    <property name="modified">2018-09-10T11:26:32</property>
+    <property name="modified">2018-09-10T12:28:23</property>
     <property name="originalScheme">Arc Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -504,7 +504,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="79e7ff" />
+        <option name="FOREGROUND" value="ff4051" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -867,7 +867,7 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f6efff" />
+        <option name="FOREGROUND" value="ea40ff" />
         <option name="BACKGROUND" value="0" />
         <option name="ERROR_STRIPE_COLOR" value="4d6168" />
       </value>
