@@ -1,0 +1,9 @@
+<keymap version="1" name="Default for XWin copy" parent="Default for XWin">
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="FileChooser.GotoHome" />
+  <action id="GotoBookmark1" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
+</keymap>
