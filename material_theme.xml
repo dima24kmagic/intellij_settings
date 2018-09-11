@@ -1,6 +1,6 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="version" value="2.8.3" />
+    <option name="version" value="2.4.1.5-2018.1" />
     <option name="selectedTheme" value="ARC_DARK" />
     <option name="highlightColor" value="80cbc4" />
     <option name="isContrastMode" value="true" />
@@ -14,8 +14,5 @@
     <option name="userId" value="461a8743:165b0182d22:-8000" />
     <option name="allowDataCollection" value="true" />
     <option name="treeFontSizeEnabled" value="true" />
-    <option name="indicatorThickness" value="4" />
-    <option name="overrideAccentColor" value="true" />
-    <option name="isWizardShown" value="true" />
   </component>
 </application>
