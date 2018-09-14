@@ -1,0 +1,8 @@
+<templateSet group="JavaScript">
+  <template name="log" value="console.log($STRING$);" description="create console log text" toReformat="false" toShortenFQNames="true">
+    <variable name="STRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

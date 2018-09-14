@@ -1,0 +1,9 @@
+<templateSet group="Go">
+  <template name="iferr" value="if $ERR$!=nil {&#10;    log.Println(&quot;[ERROR] $TEXT$ &quot;, err)&#10;}" description="check if err is not nil" toReformat="false" toShortenFQNames="true">
+    <variable name="ERR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+</templateSet>
