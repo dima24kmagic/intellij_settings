@@ -29,7 +29,7 @@
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="import" value="import $END$ from $MODULE$;" description="Import from first" toReformat="false" toShortenFQNames="true">
+  <template name="import" value="import $END$ from &quot;$MODULE$&quot;;" description="Import from first" toReformat="false" toShortenFQNames="true">
     <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
