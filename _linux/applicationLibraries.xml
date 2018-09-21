@@ -1,5 +1,10 @@
 <application>
   <component name="libraryTable">
+    <library name="@types/flux" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/lodash" type="javaScript">
       <CLASSES />
       <JAVADOC />
