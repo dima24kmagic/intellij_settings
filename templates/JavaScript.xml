@@ -35,4 +35,17 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="ecf" value="export const $FUNCNAME$ = ($PARAMS$) =&gt; {&#10;    $END$&#10;}" description="export const function" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNCNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ec" value="export const $CONSTNAME$" description="export const" toReformat="false" toShortenFQNames="true">
+    <variable name="CONSTNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
