@@ -2,6 +2,12 @@
   <action id="DuplicatesForm.SendToLeft" />
   <action id="FileChooser.GotoHome" />
   <action id="GotoBookmark1" />
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="shift ctrl alt printscreen" />
+  </action>
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="shift ctrl alt delete" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="ctrl 1" />

@@ -27,5 +27,25 @@
   <template name="importdefault" value="import $ITEM$ from &quot;$START$&quot;;&#10;$END$" description="Import statement - import b from 'a'" toReformat="true" toShortenFQNames="true">
     <variable name="ITEM" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="import" value="import $END$ from &quot;$MODULE$&quot;;" description="Import from first" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ecf" value="export const $FUNCNAME$ = ($PARAMS$) =&gt; {&#10;    $END$&#10;}" description="export const function" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNCNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ec" value="export const $CONSTNAME$" description="export const" toReformat="false" toShortenFQNames="true">
+    <variable name="CONSTNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
 </templateSet>
