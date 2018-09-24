@@ -21,13 +21,51 @@
         <entry key="EditorBasics.MultipleSelections" value="NOT_PASSED" />
         <entry key="EditorBasics.Selection" value="NOT_PASSED" />
         <entry key="Navigation.Declaration/Implementation" value="NOT_PASSED" />
-        <entry key="Navigation.FileStructure" value="NOT_PASSED" />
-        <entry key="Navigation.JumptoSource" value="NOT_PASSED" />
+        <entry key="Navigation.FileStructure" value="PASSED" />
+        <entry key="Navigation.JumptoSource" value="PASSED" />
         <entry key="Navigation.Next/PreviousOccurrences" value="NOT_PASSED" />
         <entry key="Refactorings.ExtractMethod" value="NOT_PASSED" />
         <entry key="Refactorings.ExtractVariable/Field" value="NOT_PASSED" />
         <entry key="Refactorings.RefactoringBasics" value="NOT_PASSED" />
         <entry key="Refactorings.Rename" value="NOT_PASSED" />
+      </map>
+    </option>
+  </component>
+  <component name="StatisticBase">
+    <option name="persistedLessonId2State">
+      <map>
+        <entry key="Navigation.Declaration/Implementation">
+          <value>
+            <StatisticData>
+              <option name="state" value="STARTED" />
+              <option name="timestamp" value="1537800300846" />
+            </StatisticData>
+          </value>
+        </entry>
+        <entry key="Navigation.FileStructure">
+          <value>
+            <StatisticData>
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="10532" />
+            </StatisticData>
+          </value>
+        </entry>
+        <entry key="Navigation.JumptoSource">
+          <value>
+            <StatisticData>
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="26607" />
+            </StatisticData>
+          </value>
+        </entry>
+        <entry key="Navigation.Next/PreviousOccurrences">
+          <value>
+            <StatisticData>
+              <option name="state" value="STARTED" />
+              <option name="timestamp" value="1537800342278" />
+            </StatisticData>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
