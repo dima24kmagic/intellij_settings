@@ -83,4 +83,16 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="eaf" value="export const $FUNCNAME$ = ($ARHUMENTS$) =&gt; {&#10;    $END$&#10;};" description="export arrow function" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNCNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARHUMENTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qs" value="document.querySelector(&quot;$END$&quot;);" description="query selector" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
