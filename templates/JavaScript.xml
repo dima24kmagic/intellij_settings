@@ -95,4 +95,18 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="gen" value="function* $FNAME$ ($ARGUMENTS$){&#10;    $END$&#10;}" description="generator function" toReformat="false" toShortenFQNames="true">
+    <variable name="FNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGUMENTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="egen" value="export function* $FNAME$ ($ARGUMENTS$){&#10;    $END$&#10;}" description="export generator function" toReformat="false" toShortenFQNames="true">
+    <variable name="FNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGUMENTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
