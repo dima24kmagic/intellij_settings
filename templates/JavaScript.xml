@@ -109,4 +109,19 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="msp" value="const mapStateToProps = state =&gt; ({&#10;    $END$&#10;})" description="map state to props" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mdp" value="const mapDispatchToProps = dispatch =&gt; bindActionCreators({$END$}, dispatch)" description="map dispatch to props" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="crc" value="export default connect(mapStateToProps, mapDispatchToProps)($END$);" description="connect react component" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
