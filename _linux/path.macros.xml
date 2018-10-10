@@ -2,6 +2,7 @@
   <component name="PathMacrosImpl">
     <macro name="MAVEN_REPOSITORY" value="/home/dima/.m2/repository" />
     <macro name="KOTLIN_BUNDLED" value="/opt/idea-IU-182.4129.33/plugins/Kotlin/kotlinc" />
+    <macro name="PLUGINS_PATH" value="/home/dima/.IntelliJIdea2018.2/config/plugins" />
     <ignoredMacro name="MESSAGE" />
     <ignoredMacro name="FILE_PATH" />
     <ignoredMacro name="LINE" />
