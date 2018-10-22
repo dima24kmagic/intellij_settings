@@ -132,4 +132,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="dc" value="const {$END$} = $CONSTNAME$" description="deconstruct const" toReformat="false" toShortenFQNames="true">
+    <variable name="CONSTNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
