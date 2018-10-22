@@ -124,4 +124,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="iife" value="const $IIFENAME$ = (($PARAMS$) =&gt; {&#10;    $END$&#10;})($PARAMS_TO_PASS$)" description="Immediately invoked function expression" toReformat="false" toShortenFQNames="true">
+    <variable name="IIFENAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS_TO_PASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
