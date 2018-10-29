@@ -138,4 +138,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="fn" value="function $FNAME$($PARAMS$) {&#10;    $END$&#10;}" description="function declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="FNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
