@@ -3,8 +3,8 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/programming/courses/js/deep_js/exercises/ex5-module/ex5.js" timestamp="1541344389890">
-        <mark key="[" line="221" column="4" />
+      <file name="$USER_HOME$/programming/courses/js/deep_js/exercises/ex5-module/ex5.js" timestamp="1541344728230">
+        <mark key="[" line="16" column="16" />
       </file>
     </filemarks>
     <jumps />
@@ -13,7 +13,12 @@
       <last-dir>0</last-dir>
       <show-last>false</show-last>
     </search>
-    <history />
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
     <shortcut-conflicts />
   </component>
 </application>

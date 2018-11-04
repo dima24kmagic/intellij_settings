@@ -12,4 +12,8 @@
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="ctrl 1" />
   </action>
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
+  </action>
 </keymap>
