@@ -1,0 +1,19 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/programming/courses/js/deep_js/exercises/ex5-module/ex5.js" timestamp="1541344336998">
+        <mark key="[" line="221" column="4" />
+      </file>
+    </filemarks>
+    <jumps />
+    <registers />
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history />
+    <shortcut-conflicts />
+  </component>
+</application>
