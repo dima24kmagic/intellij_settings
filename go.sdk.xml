@@ -3,6 +3,7 @@
     <sdk-path>
       <set>
         <option value="$USER_HOME$/programming/go" />
+        <option value="$USER_HOME$/programming/projects/go/src/go" />
         <option value="/usr/lib/go-1.10" />
       </set>
     </sdk-path>
