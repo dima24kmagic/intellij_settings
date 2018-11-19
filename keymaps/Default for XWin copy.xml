@@ -3,10 +3,11 @@
   <action id="FileChooser.GotoHome" />
   <action id="GotoBookmark1" />
   <action id="NewDir">
-    <keyboard-shortcut first-keystroke="shift ctrl alt printscreen" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt period" />
   </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt delete" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt comma" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
