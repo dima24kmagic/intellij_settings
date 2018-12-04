@@ -145,4 +145,64 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="ldrc" value="import React from 'react'&#10;import PropTypes from 'prop-types'&#10;import { withStyles } from '@material-ui/core/styles'&#10;&#10;const propTypes = {&#10;  /** @ignore */&#10;  classes: PropTypes.object.isRequired,&#10;}&#10;   &#10;const defaultProps = {&#10;}&#10;&#10;const styles = {&#10;  header: {&#10;    fontSize: 20,&#10;    textDecoration: 'underline',&#10;  }&#10;}&#10;&#10;/**&#10; * $END$&#10; */&#10;export function $COMPONENT_NAME$({ classes }) {&#10;  return (&#10;    &lt;div className={classes.header}&gt; &lt;/div&gt;&#10;  )&#10;}&#10;&#10;$COMPONENT_NAME$.propTypes = propTypes&#10;$COMPONENT_NAME$.defaultProps = defaultProps&#10;&#10;const enhance = withStyles(styles)&#10;&#10;export default enhance($COMPONENT_NAME$)" description="lastyng dynamics component" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ldrs" value="Example:&#10;&#10;```js&#10;&lt;$COMPONENT_NAME$ $END$/&gt;&#10;```" description="lastyngdynamics React Styleguidist" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="GO" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="MXML" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="SQL" value="false" />
+      <option name="SSP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+      <option name="sbt" value="false" />
+    </context>
+  </template>
+  <template name="pts" value="PropTypes.string" description="React Prop Type string" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ptn" value="PropTypes.number" description="React Prop Type number" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ptshape" value="PropTypes.shape({&#10;    $END$&#10;})" description="React Prop Type shape" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ldrt" value="import React from 'react'&#10;import { shallow, mount } from 'enzyme'&#10;import classes from 'identity-obj-proxy'&#10;import { $COMPONENT_NAME$ } from './$COMPONENT_NAME$'&#10;&#10;describe('&lt;$COMPONENT_NAME$ /&gt;', () =&gt; {&#10;    it('renders correctly', () =&gt; {&#10;        const wrapper = shallow(&lt;$COMPONENT_NAME$ classes={classes} $END$ /&gt;)&#10;        expect(wrapper).toMatchSnapshot()&#10;    })&#10;})" description="lastyngdynamics react test" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
