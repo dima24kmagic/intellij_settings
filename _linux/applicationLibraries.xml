@@ -5,6 +5,11 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="@types/enzyme-adapter-react-16" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/express" type="javaScript">
       <CLASSES />
       <JAVADOC />
