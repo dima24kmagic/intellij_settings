@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../src/components/YouTubeVideo/YouTubeVideo.js [tele-school]'" />
-    <option name="defaultScopeName" value="File '.../src/components/YouTubeVideo/YouTubeVideo.js [tele-school]'" />
+    <option name="customScope" value="Project 'backend'" />
+    <option name="defaultScopeName" value="Project 'backend'" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="File '.../src/components/YouTubeVideo/YouTubeVideo.js [tele-school]'" />
+    <option name="SEARCH_SCOPE" value="Project 'backend'" />
   </component>
 </application>
