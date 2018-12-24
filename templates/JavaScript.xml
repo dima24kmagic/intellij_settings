@@ -217,4 +217,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="mgi" value="&lt;Grid item&gt;$END$&lt;/Grid&gt;" description="Material Grid Item" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mgc" value="&lt;Grid container&gt;$END$&lt;/Grid&gt;" description="Material Grid Container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
