@@ -1,7 +1,7 @@
 <application>
   <component name="PathMacrosImpl">
     <macro name="MAVEN_REPOSITORY" value="/home/dima/.m2/repository" />
-    <macro name="KOTLIN_BUNDLED" value="/opt/idea-IU-182.4892.20/plugins/Kotlin/kotlinc" />
+    <macro name="KOTLIN_BUNDLED" value="/snap/android-studio/69/android-studio/plugins/Kotlin/kotlinc" />
     <macro name="PLUGINS_PATH" value="/home/dima/.IntelliJIdea2018.2/config/plugins" />
     <ignoredMacro name="MESSAGE" />
     <ignoredMacro name="FILE_PATH" />
