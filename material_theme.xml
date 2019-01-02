@@ -3,6 +3,7 @@
     <option name="allowDataCollection" value="true" />
     <option name="isContrastMode" value="true" />
     <option name="isCustomTreeIndentEnabled" value="true" />
+    <option name="isWizardShown" value="true" />
     <option name="pristineConfig" value="false" />
     <option name="treeFontSizeEnabled" value="true" />
     <option name="customSidebarHeight" value="30" />
