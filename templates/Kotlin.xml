@@ -1,0 +1,9 @@
+<templateSet group="Kotlin">
+  <template name="fv" value="val $val_name$ = findViewById&lt;$view_name$&gt;(R.id.$END$)" description="find view by id" toReformat="false" toShortenFQNames="true">
+    <variable name="val_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="view_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
