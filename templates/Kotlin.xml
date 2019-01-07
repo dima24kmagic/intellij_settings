@@ -6,4 +6,11 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="fun" value="fun $fun_name$($args$) {&#10;  $END$&#10;}" description="create function" toReformat="false" toShortenFQNames="true">
+    <variable name="fun_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
