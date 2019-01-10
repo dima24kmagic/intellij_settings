@@ -100,6 +100,11 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="@types/react-virtualized" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/typescript-deferred" type="javaScript">
       <CLASSES />
       <JAVADOC />
