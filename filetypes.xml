@@ -1,10 +1,8 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <removed_mapping ext="js" type="JavaScript" />
       <mapping pattern="CreateModuleQuery.js" type="PLAIN_TEXT" />
       <mapping pattern="MainInput.jsx" type="PLAIN_TEXT" />
-      <mapping ext="js" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
