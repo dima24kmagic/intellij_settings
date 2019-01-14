@@ -1,18 +1,17 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="allowDataCollection" value="true" />
+    <option name="version" value="2.4.1.5-2018.1" />
+    <option name="selectedTheme" value="ARC_DARK" />
+    <option name="highlightColor" value="80cbc4" />
     <option name="isContrastMode" value="true" />
     <option name="isCustomTreeIndentEnabled" value="true" />
-    <option name="isWizardShown" value="true" />
-    <option name="treeFontSizeEnabled" value="true" />
+    <option name="rightTreeIndent" value="8" />
+    <option name="leftTreeIndent" value="4" />
+    <option name="accentColor" value="009688" />
     <option name="customSidebarHeight" value="30" />
     <option name="treeFontSize" value="15" />
-    <option name="leftTreeIndent" value="4" />
-    <option name="rightTreeIndent" value="8" />
-    <option name="accentColor" value="009688" />
-    <option name="highlightColor" value="80cbc4" />
-    <option name="selectedTheme" value="ARC_DARK" />
     <option name="userId" value="461a8743:165b0182d22:-8000" />
-    <option name="version" value="3.3.0" />
+    <option name="allowDataCollection" value="true" />
+    <option name="treeFontSizeEnabled" value="true" />
   </component>
 </application>
