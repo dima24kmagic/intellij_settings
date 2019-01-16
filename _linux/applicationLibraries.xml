@@ -1,5 +1,10 @@
 <application>
   <component name="libraryTable">
+    <library name="@types/bcrypt" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/enzyme" type="javaScript">
       <CLASSES />
       <JAVADOC />
