@@ -227,4 +227,9 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="daq" value="{({data, loading, error}) =&gt; {&#10;    if (loading) return &lt;div&gt;Loading...&lt;/div&gt;&#10;    if (error) return &lt;div&gt;Error&lt;/div&gt;&#10;    return &lt;div&gt;Data&lt;/div&gt;&#10;}}" description="deconstruct apollo query" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
