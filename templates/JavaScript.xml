@@ -237,4 +237,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="rpth" value="import React from 'react'&#10;import {&#10;  string,&#10;  shape,&#10;  number,&#10;  node,&#10;  oneOf,&#10;  oneOfType,&#10;  any,&#10;  array,&#10;  arrayOf,&#10;  bool,&#10;  func,&#10;} from 'prop-types'&#10;&#10;function $PROP_NAME$() {}&#10;&#10;$PROP_NAME$.propTypes = {$END$}&#10;&#10;$PROP_NAME$.defaultProps = {}&#10;&#10;export default $PROP_NAME$&#10;" description="React prop types holder" toReformat="false" toShortenFQNames="true">
+    <variable name="PROP_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
