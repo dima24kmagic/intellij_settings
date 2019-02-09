@@ -25,6 +25,11 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="@types/graphql" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/gsap" type="javaScript">
       <CLASSES />
       <JAVADOC />
@@ -36,6 +41,11 @@
       <SOURCES />
     </library>
     <library name="@types/jquery" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="@types/jsonwebtoken" type="javaScript">
       <CLASSES />
       <JAVADOC />
       <SOURCES />
@@ -106,6 +116,16 @@
       <SOURCES />
     </library>
     <library name="@types/react-virtualized" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="@types/serialize-javascript" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="@types/serialport" type="javaScript">
       <CLASSES />
       <JAVADOC />
       <SOURCES />

@@ -27,6 +27,7 @@
   <template name="importdefault" value="import $ITEM$ from &quot;$START$&quot;;&#10;$END$" description="Import statement - import b from 'a'" toReformat="true" toShortenFQNames="true">
     <variable name="ITEM" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="import" value="import $END$ from &quot;$MODULE$&quot;;" description="Import from first" toReformat="false" toShortenFQNames="true">
     <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
@@ -222,6 +223,28 @@
     </context>
   </template>
   <template name="mgc" value="&lt;Grid container&gt;$END$&lt;/Grid&gt;" description="Material Grid Container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="daq" value="{({data, loading, error}) =&gt; {&#10;    if (loading) return &lt;div&gt;Loading...&lt;/div&gt;&#10;    if (error) return &lt;div&gt;Error&lt;/div&gt;&#10;    return &lt;div&gt;Data&lt;/div&gt;&#10;}}" description="deconstruct apollo query" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="edf" value="export { default } from &quot;./$END$&quot;" description="export default from" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rpth" value="import React from 'react'&#10;import {&#10;  string,&#10;  shape,&#10;  number,&#10;  node,&#10;  oneOf,&#10;  oneOfType,&#10;  any,&#10;  array,&#10;  arrayOf,&#10;  bool,&#10;  func,&#10;} from 'prop-types'&#10;&#10;function $PROP_NAME$() {}&#10;&#10;$PROP_NAME$.propTypes = {$END$}&#10;&#10;$PROP_NAME$.defaultProps = {}&#10;&#10;export default $PROP_NAME$&#10;" description="React prop types holder" toReformat="false" toShortenFQNames="true">
+    <variable name="PROP_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cr" value="const $END$ = require('$PACKAGE_NAME$')" description="const require" toReformat="false" toShortenFQNames="true">
+    <variable name="PACKAGE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
