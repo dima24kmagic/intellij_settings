@@ -12,6 +12,7 @@
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
+    <mask>*.md</mask>
     <mask>*.js</mask>
   </component>
 </application>
