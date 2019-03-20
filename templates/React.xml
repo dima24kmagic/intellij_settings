@@ -312,5 +312,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="sst" value="this.setState(currentState =&gt; {&#10;    return $END$&#10;});" description="Performs a shallow merge of nextState into current state" toReformat="true" toShortenFQNames="true" />
+  <template name="sst" value="this.setState(currentState =&gt; {&#10;    return $END$&#10;});" description="Performs a shallow merge of nextState into current state" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
