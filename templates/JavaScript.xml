@@ -145,7 +145,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ldrc" value="import React from 'react'&#10;import PropTypes from 'prop-types'&#10;import { withStyles } from '@material-ui/core/styles'&#10;import Grid from '@material-ui/core/Grid/Grid'&#10;&#10;const propTypes = {&#10;  /** @ignore */&#10;  classes: PropTypes.shape().isRequired,&#10;}&#10;&#10;const defaultProps = {}&#10;&#10;const styles = {}&#10;&#10;/**&#10; * $END$&#10; */&#10;export function $COMPONENT_NAME$({ classes }) {&#10;  return &lt;Grid container&gt; &lt;/Grid&gt;&#10;}&#10;&#10;$COMPONENT_NAME$.propTypes = propTypes&#10;$COMPONENT_NAME$.defaultProps = defaultProps&#10;&#10;const enhance = withStyles(styles)&#10;&#10;export default enhance($COMPONENT_NAME$)&#10;" description="lastyng dynamics component" toReformat="false" toShortenFQNames="true">
+  <template name="ldrc" value="import React from 'react'&#10;import Grid from '@material-ui/core/Grid/Grid'&#10;import { makeStyles } from '@material-ui/styles'&#10;&#10;const propTypes = {}&#10;&#10;const useStyles = makeStyles(theme =&gt; ({}))&#10;&#10;const defaultProps = {}&#10;&#10;/**&#10; * $END$&#10; */&#10;export function $COMPONENT_NAME$({}) {&#10;  const classes = useStyles()&#10;  return &lt;Grid container&gt; &lt;/Grid&gt;&#10;}&#10;&#10;$COMPONENT_NAME$.propTypes = propTypes&#10;$COMPONENT_NAME$.defaultProps = defaultProps&#10;&#10;export default $COMPONENT_NAME$&#10;" description="lastyng dynamics component" toReformat="false" toShortenFQNames="true">
     <variable name="COMPONENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
