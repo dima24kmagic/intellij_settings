@@ -4,6 +4,7 @@
       <mapping pattern="getKinfOfIssuesToFetch" type="JavaScript" />
       <mapping pattern="CreateModuleQuery.js" type="PLAIN_TEXT" />
       <mapping pattern="MainInput.jsx" type="PLAIN_TEXT" />
+      <mapping pattern=".todolist" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
