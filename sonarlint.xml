@@ -1,0 +1,9 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="excludedRules">
+      <set>
+        <option value="javascript:S1788" />
+      </set>
+    </option>
+  </component>
+</application>
