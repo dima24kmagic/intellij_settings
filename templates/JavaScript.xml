@@ -260,4 +260,9 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="ipp" value="import {&#10;  shape,&#10;  node,&#10;  string,&#10;  func,&#10;  number,&#10;  arrayOf,&#10;  oneOfType,&#10;  bool,&#10;  any,&#10;  oneOf,&#10;  array,&#10;  element,&#10;} from 'prop-types'" description="Import Prop Types" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
