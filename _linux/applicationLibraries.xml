@@ -75,6 +75,11 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="@types/node-xlsx" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/nprogress" type="javaScript">
       <CLASSES />
       <JAVADOC />
