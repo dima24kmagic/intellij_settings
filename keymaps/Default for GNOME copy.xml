@@ -1,9 +1,24 @@
 <keymap version="1" name="Default for GNOME copy" parent="Default for GNOME">
+  <action id="DecrementWindowHeight" />
+  <action id="IncrementWindowHeight" />
   <action id="IntroduceFunctionalParameter" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="shift ctrl alt period" />
   </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt comma" />
   </action>
+  <action id="NextOccurence" />
+  <action id="PreviousOccurence" />
+  <action id="ResetColumnsWidth" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
 </keymap>
