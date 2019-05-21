@@ -1,5 +1,10 @@
 <application>
   <component name="libraryTable">
+    <library name="@types/chai" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/jest" type="javaScript">
       <CLASSES />
       <JAVADOC />
@@ -11,6 +16,11 @@
       <SOURCES />
     </library>
     <library name="@types/material-ui" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="@types/mocha" type="javaScript">
       <CLASSES />
       <JAVADOC />
       <SOURCES />
