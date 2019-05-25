@@ -5,6 +5,11 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="@types/express" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/jest" type="javaScript">
       <CLASSES />
       <JAVADOC />
@@ -31,6 +36,16 @@
       <SOURCES />
     </library>
     <library name="@types/react-router-dom" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="@types/serialport" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="@types/socket.io" type="javaScript">
       <CLASSES />
       <JAVADOC />
       <SOURCES />
