@@ -1,4 +1,5 @@
 <keymap version="1" name="Default for GNOME copy 1" parent="Default for GNOME">
+  <action id="IntroduceFunctionalParameter" />
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="shift ctrl alt period" />
   </action>
