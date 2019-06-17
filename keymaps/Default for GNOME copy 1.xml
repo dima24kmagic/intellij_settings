@@ -1,9 +1,17 @@
 <keymap version="1" name="Default for GNOME copy 1" parent="Default for GNOME">
   <action id="IntroduceFunctionalParameter" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="shift ctrl alt period" />
   </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt comma" />
   </action>
+  <action id="NextOccurence" />
+  <action id="PreviousOccurence" />
 </keymap>
