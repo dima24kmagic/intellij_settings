@@ -254,7 +254,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rcs" value="import React from 'react'&#10;import { storiesOf } from '@storybook/react'&#10;import $COMPONENT_NAME$ from './$COMPONENT_NAME$'&#10;&#10;storiesOf('$COMPONENT_NAME$', module).add('$COMPONENT_NAME$ example', () =&gt; {&#10;    $END$&#10;    return ( &#10;        &lt;ProvideStoriesTheme&gt;&#10;            &lt;$COMPONENT_NAME$/&gt;&#10;        &lt;/ProvideStoriesTheme&gt;&#10;    )&#10;})" description="React Component Story" toReformat="false" toShortenFQNames="true">
+  <template name="rcs" value="import React from 'react'&#10;import { storiesOf } from '@storybook/react'&#10;import $COMPONENT_NAME$ from './$COMPONENT_NAME$'&#10;&#10;storiesOf('Components|$COMPONENT_NAME$', module).add('$COMPONENT_NAME$ example', () =&gt; {&#10;    $END$&#10;    return ( &#10;        &lt;ProvideStoriesTheme&gt;&#10;            &lt;$COMPONENT_NAME$/&gt;&#10;        &lt;/ProvideStoriesTheme&gt;&#10;    )&#10;})" description="React Component Story" toReformat="false" toShortenFQNames="true">
     <variable name="COMPONENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
