@@ -30,5 +30,10 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="@types/testing-library__react" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
   </component>
 </application>
