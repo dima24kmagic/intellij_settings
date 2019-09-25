@@ -199,7 +199,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ldrt" value="import React from 'react'&#10;import { shallow, mount } from 'enzyme'&#10;import classes from 'identity-obj-proxy'&#10;import { $COMPONENT_NAME$ } from './$COMPONENT_NAME$'&#10;&#10;describe('&lt;$COMPONENT_NAME$ /&gt;', () =&gt; {&#10;    it('renders correctly', () =&gt; {&#10;        const wrapper = shallow(&lt;$COMPONENT_NAME$ classes={classes} $END$ /&gt;)&#10;        expect(wrapper).toMatchSnapshot()&#10;    })&#10;})" description="lastyngdynamics react test" toReformat="false" toShortenFQNames="true">
+  <template name="srct" value="import React from 'react'&#10;import { render } from 'react-testing-library'&#10;import $COMPONENT_NAME$ from './$COMPONENT_NAME$'&#10;&#10;describe('&lt;$COMPONENT_NAME$ /&gt;', () =&gt; {&#10;  it('renders correctly', () =&gt; {&#10;    const wrapper = render(&lt;$COMPONENT_NAME$ /&gt;)&#10;  })&#10;})" description="simple react component test" toReformat="false" toShortenFQNames="true">
     <variable name="COMPONENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
