@@ -35,6 +35,11 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="@types/styled-components" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/testing-library__react" type="javaScript">
       <CLASSES />
       <JAVADOC />
