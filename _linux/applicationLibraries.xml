@@ -1,5 +1,10 @@
 <application>
   <component name="libraryTable">
+    <library name="@types/d3-ease" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/expo" type="javaScript">
       <CLASSES />
       <JAVADOC />
