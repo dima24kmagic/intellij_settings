@@ -1,4 +1,5 @@
 <keymap version="1" name="Default for GNOME copy 1" parent="Default for GNOME">
+  <action id="ExpressionTypeInfo" />
   <action id="IntroduceFunctionalParameter" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
@@ -14,4 +15,7 @@
   </action>
   <action id="NextOccurence" />
   <action id="PreviousOccurence" />
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
 </keymap>
