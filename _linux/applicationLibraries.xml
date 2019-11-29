@@ -25,6 +25,11 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="@types/react-loader-spinner" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/react-native" type="javaScript">
       <CLASSES />
       <JAVADOC />
