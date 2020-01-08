@@ -45,6 +45,11 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="@types/semantic-ui" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/styled-components" type="javaScript">
       <CLASSES />
       <JAVADOC />
