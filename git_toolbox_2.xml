@@ -18,6 +18,9 @@
         </DecorationPartConfig>
       </list>
     </option>
+    <option name="blameInlineAuthorNameType" value="FULL" />
+    <option name="blameStatusAuthorNameType" value="FULL" />
+    <option name="absoluteDateTimeStyle" value="DMY_TIME" />
     <option name="previousVersionMigrated" value="true" />
   </component>
 </application>
