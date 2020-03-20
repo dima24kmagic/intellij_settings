@@ -1,6 +1,12 @@
 <keymap version="1" name="GNOME copy" parent="Default for GNOME">
+  <action id="ChangesView.AddUnversioned" />
+  <action id="Diagram.DeselectAll" />
   <action id="ExpressionTypeInfo" />
   <action id="ReformatWithPrettierAction">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="hg4idea.add" />
+  <action id="one.util.ideaplugin.screenshoter.CopyImageAction">
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
   </action>
 </keymap>
