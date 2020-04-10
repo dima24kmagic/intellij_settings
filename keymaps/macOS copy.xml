@@ -2,11 +2,40 @@
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="alt up" />
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="alt down" />
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="ReformatWithPrettierAction">
     <keyboard-shortcut first-keystroke="shift meta alt p" />
     <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="ServiceView.JumpToServices">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
+  <action id="Vcs.EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="XDebugger.JumpToSource">
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
 </keymap>
