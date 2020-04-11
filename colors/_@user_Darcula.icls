@@ -3,10 +3,11 @@
     <property name="created">2019-03-02T01:25:59</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2020-04-08T23:05:25</property>
+    <property name="modified">2020-04-11T20:37:56</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
+    <option name="CONSOLE_BACKGROUND_KEY" value="141c2d" />
     <option name="FILESTATUS_ADDED" value="8f9d6a" />
     <option name="FILESTATUS_COPIED" value="8f9d6a" />
     <option name="FILESTATUS_DELETED" value="808080" />
@@ -27,5 +28,16 @@
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
     <option name="FILESTATUS_addedOutside" value="8f9d6a" />
     <option name="FILESTATUS_modifiedOutside" value="7587a6" />
+    <option name="GUTTER_BACKGROUND" value="262b40" />
+    <option name="READONLY_BACKGROUND" value="" />
   </colors>
+  <attributes>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="BACKGROUND" value="1d2337" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+  </attributes>
 </scheme>
