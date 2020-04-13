@@ -5,5 +5,18 @@
     <option name="localWholeWordsOnly" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.css" />
+    <mask>*.xml</mask>
+    <mask>*.htm</mask>
+    <mask>*.shtml</mask>
+    <mask>*.sht</mask>
+    <mask>*.shtm</mask>
+    <mask>*.ng</mask>
+    <mask>*.html</mask>
+    <mask>*.ats</mask>
+    <mask>*.ts</mask>
+    <mask>*.cjs</mask>
+    <mask>*.js</mask>
+    <mask>*.css</mask>
   </component>
 </application>
