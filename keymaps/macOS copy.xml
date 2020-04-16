@@ -16,8 +16,15 @@
     <keyboard-shortcut first-keystroke="meta down" />
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
+  <action id="Exit" />
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="f1" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+    <mouse-shortcut keystroke="control button2" />
+    <keyboard-shortcut first-keystroke="meta q" />
   </action>
   <action id="ReformatWithPrettierAction">
     <keyboard-shortcut first-keystroke="shift meta alt p" />
