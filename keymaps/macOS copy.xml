@@ -1,4 +1,5 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="CloseContent" />
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
@@ -8,10 +9,12 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="alt up" />
     <keyboard-shortcut first-keystroke="meta up" />
+    <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="alt down" />
     <keyboard-shortcut first-keystroke="meta down" />
+    <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="meta y" />
