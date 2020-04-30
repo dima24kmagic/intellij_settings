@@ -1,11 +1,14 @@
 <scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2019-03-02T01:25:59</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2020-04-12T15:48:37</property>
+    <property name="modified">2020-04-30T15:04:14</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
+  <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
+  <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
     <option name="CONSOLE_BACKGROUND_KEY" value="141c2d" />
     <option name="FILESTATUS_ADDED" value="8f9d6a" />
