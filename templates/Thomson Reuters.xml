@@ -1,0 +1,8 @@
+<templateSet group="Thomson Reuters">
+  <template name="rch" value="import React from &quot;react&quot;;&#10;import { elementAttributesToProps } from &quot;@dcl/rehydrate&quot;;&#10;import $COMPONENT_NAME$ from &quot;./$COMPONENT_NAME$&quot;;&#10;import { I$COMPONENT_NAME$Props } from &quot;./$COMPONENT_NAME$.types&quot;;&#10;&#10;export const rehydrator = async domNode =&gt; {&#10;  const props = elementAttributesToProps(domNode) as I$COMPONENT_NAME$Props;&#10;&#10;  return &lt;$COMPONENT_NAME$ {...props} /&gt;;&#10;};&#10;&#10;export default rehydrator;&#10;" description="React Component Rehydrator" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
