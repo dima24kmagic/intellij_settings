@@ -4,7 +4,7 @@
     <property name="created">2020-04-11T20:09:55</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2020-04-11T20:37:57</property>
+    <property name="modified">2020-05-08T17:27:28</property>
     <property name="originalScheme">Material Palenight</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -29,7 +29,7 @@
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
     <option name="CARET_COLOR" value="ffcc00" />
     <option name="CARET_ROW_COLOR" value="232235" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="292d3e" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="151b2c" />
     <option name="DELETED_LINES_COLOR" value="f07178" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
