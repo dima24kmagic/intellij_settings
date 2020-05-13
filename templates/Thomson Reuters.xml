@@ -5,4 +5,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="recs" value="import React from &quot;react&quot;;&#10;import { storiesOf } from &quot;@storybook/react&quot;;&#10;import { withKnobs } from &quot;@storybook/addon-knobs&quot;;&#10;import $COMPONENT_NAME$ from &quot;./$COMPONENT_NAME$&quot;;&#10;import { I$COMPONENT_NAME$Props } from &quot;./$COMPONENT_NAME$.types&quot;;&#10;import &quot;./$COMPONENT_NAME$.css&quot;;&#10;&#10;const stories = storiesOf(&quot;Bundle-UE/$COMPONENT_NAME$&quot;, module);&#10;stories.addDecorator(withKnobs);&#10;&#10;const props: I$COMPONENT_NAME$Props = {&#10;};&#10;&#10;stories.add(&quot;Default&quot;, () =&gt; &lt;$COMPONENT_NAME$ {...props} /&gt;);&#10;" description="React component story" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
