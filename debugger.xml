@@ -75,19 +75,14 @@
       <option name="ENABLED" value="true" />
       <option name="INCLUDE" value="true" />
     </filter>
-    <filter>
-      <option name="PATTERN" value="kotlin.*" />
-      <option name="ENABLED" value="true" />
-      <option name="INCLUDE" value="true" />
-    </filter>
   </component>
   <component name="XDebuggerSettings">
     <data-views />
     <general />
     <debuggers>
-      <debugger id="javascript">
+      <debugger id="ObjectiveC">
         <configuration>
-          <custom-object-presentation />
+          <option name="VALUES_FILTER_ENABLED" value="false" />
         </configuration>
       </debugger>
       <debugger id="kotlin_debugger">
