@@ -1,5 +1,6 @@
 <application>
   <component name="UISettings">
+    <option name="IDE_AA_TYPE" value="Greyscale" />
     <option name="PRESENTATION_MODE_FONT_SIZE" value="20" />
   </component>
 </application>
