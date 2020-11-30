@@ -11,4 +11,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="rcrc" value="import React from &quot;react&quot;;&#10;import { propsToDataAttributes } from &quot;@dcl/rehydrate&quot;;&#10;import { I$COMPONENT_NAME$ContainerProps } from &quot;./$COMPONENT_NAME$Container.types&quot;;&#10;import $COMPONENT_NAME$ from &quot;../$COMPONENT_NAME$&quot;;&#10;import { getRehydratableName } from &quot;@dcl/ui&quot;;&#10;&#10;const $COMPONENT_NAME$Container = (props: I$COMPONENT_NAME$ContainerProps) =&gt; {&#10;  const dataAttributes = propsToDataAttributes(props);&#10;&#10;  return (&#10;      &lt;div&#10;        data-rehydratable={getRehydratableName(&#10;          $COMPONENT_NAME$Container.displayName&#10;        )}&#10;        {...dataAttributes}&#10;      &gt;&#10;        &lt;$COMPONENT_NAME$ /&gt;&#10;      &lt;/div&gt;&#10;  );&#10;};&#10;&#10;$COMPONENT_NAME$Container.displayName = &quot;$COMPONENT_NAME$Container&quot;;&#10;&#10;export default $COMPONENT_NAME$Container;&#10;export { $COMPONENT_NAME$Container };&#10;" description="react component rehydrator container" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
