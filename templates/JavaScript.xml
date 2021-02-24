@@ -160,7 +160,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="srct" value="import React from 'react'&#10;import { render } from 'react-testing-library'&#10;import $COMPONENT_NAME$ from './$COMPONENT_NAME$'&#10;&#10;describe('&lt;$COMPONENT_NAME$ /&gt;', () =&gt; {&#10;  it('renders correctly', () =&gt; {&#10;    const wrapper = render(&lt;$COMPONENT_NAME$ /&gt;)&#10;  })&#10;})" description="simple react component test" toReformat="false" toShortenFQNames="true">
+  <template name="srct" value="import React from 'react'&#10;import { render } from '@testing-library/react';&#10;import $COMPONENT_NAME$ from '../$COMPONENT_NAME$'&#10;&#10;describe('&lt;$COMPONENT_NAME$ /&gt;', () =&gt; {&#10;  it('renders correctly', () =&gt; {&#10;    const wrapper = render(&lt;$COMPONENT_NAME$ /&gt;)&#10;    expect(wrapper).toMatchSnapshot()&#10;  })&#10;})" description="simple react component test" toReformat="false" toShortenFQNames="true">
     <variable name="COMPONENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
