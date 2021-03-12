@@ -1,7 +1,8 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping ext="graphqlconfig" type="JSON" />
+      <mapping pattern="getOverlappingSchedules.js" type="AUTO_DETECTED" />
+      <mapping pattern="getOverlappingSchedules" type="AUTO_DETECTED" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <removed_mapping pattern=".env" approved="true" type="PLAIN_TEXT" />
       <mapping ext="gradle.kts" type="Kotlin" />
