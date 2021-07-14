@@ -4,7 +4,7 @@
     <property name="created">2020-04-11T20:09:55</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2021-07-05T14:57:16</property>
+    <property name="modified">2021-07-14T12:26:03</property>
     <property name="originalScheme">Material Palenight</property>
   </metaInfo>
   <console-font>
@@ -33,6 +33,8 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="808080" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="c3e88d" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="c3e887" />
     <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
     <option name="FILESTATUS_MERGED" value="c792ea" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
