@@ -1,5 +1,13 @@
 <application>
   <component name="LightEdit">
     <option name="autosaveMode" value="true" />
+    <option name="sessionFiles">
+      <list>
+        <option value="file://$USER_HOME$/Pictures/Insta Filters/Adjustable B&amp;W/scripts/app.ts" />
+      </list>
+    </option>
+    <option name="frameInfo">
+      <frame x="196" y="72" width="1400" height="1000" />
+    </option>
   </component>
 </application>
