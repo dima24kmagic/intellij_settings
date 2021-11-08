@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="getOverlappingSchedules.js" type="AUTO_DETECTED" />
+      <mapping pattern="TargetedComponents" type="AUTO_DETECTED" />
       <mapping pattern="useCheckIsMobile" type="AUTO_DETECTED" />
       <mapping pattern="enums.ts" type="AUTO_DETECTED" />
       <mapping pattern="getOverlappingSchedules" type="AUTO_DETECTED" />
