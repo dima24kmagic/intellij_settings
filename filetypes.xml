@@ -4,6 +4,7 @@
       <mapping pattern="getOverlappingSchedules.js" type="AUTO_DETECTED" />
       <mapping pattern="TargetedComponents" type="AUTO_DETECTED" />
       <mapping pattern="useCheckIsMobile" type="AUTO_DETECTED" />
+      <mapping pattern="mockData" type="AUTO_DETECTED" />
       <mapping pattern="enums.ts" type="AUTO_DETECTED" />
       <mapping pattern="getOverlappingSchedules" type="AUTO_DETECTED" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
