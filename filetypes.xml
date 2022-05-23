@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="ExpandableFiltersSection" type="AUTO_DETECTED" />
       <mapping pattern="chatIdsTrack.json" type="AUTO_DETECTED" />
       <mapping pattern="getOverlappingSchedules.js" type="AUTO_DETECTED" />
       <mapping pattern="TargetedComponents" type="AUTO_DETECTED" />
