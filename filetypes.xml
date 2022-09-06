@@ -11,6 +11,7 @@
       <mapping pattern="enums.ts" type="AUTO_DETECTED" />
       <mapping pattern="getOverlappingSchedules" type="AUTO_DETECTED" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping ext="otf" type="PLAIN_TEXT" />
       <mapping pattern="useListMomentForSale" type="TypeScript" />
       <mapping pattern="NftBuyingOption" type="TypeScript JSX" />
       <removed_mapping pattern=".env" approved="true" type="PLAIN_TEXT" />
