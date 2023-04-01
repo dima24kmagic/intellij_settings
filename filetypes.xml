@@ -14,8 +14,6 @@
       <mapping ext="otf" type="PLAIN_TEXT" />
       <mapping pattern="useListMomentForSale" type="TypeScript" />
       <mapping pattern="NftBuyingOption" type="TypeScript JSX" />
-      <mapping pattern=".analysis_options" type="YAML" />
-      <mapping pattern="pubspec.lock" type="YAML" />
       <removed_mapping pattern=".env" approved="true" type="PLAIN_TEXT" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
