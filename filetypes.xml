@@ -13,6 +13,7 @@
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="otf" type="PLAIN_TEXT" />
+      <mapping ext="prod" type="PLAIN_TEXT" />
       <mapping pattern="useListMomentForSale" type="TypeScript" />
       <mapping pattern="NftBuyingOption" type="TypeScript JSX" />
       <removed_mapping pattern=".env" approved="true" type="PLAIN_TEXT" />
