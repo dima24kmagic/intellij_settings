@@ -18,5 +18,6 @@
     <mask>*.css</mask>
     <mask>*.tsx</mask>
     <mask>!*.html</mask>
+    <mask>package.json</mask>
   </component>
 </application>
