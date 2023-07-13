@@ -10,6 +10,7 @@
       <mapping pattern="mockData" type="AUTO_DETECTED" />
       <mapping pattern="enums.ts" type="AUTO_DETECTED" />
       <mapping pattern="getOverlappingSchedules" type="AUTO_DETECTED" />
+      <mapping pattern=".env-ec2" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="otf" type="PLAIN_TEXT" />
